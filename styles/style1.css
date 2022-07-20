@@ -1,0 +1,20 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-banner {
+    display: flex;
+
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    position: absolute;
+    width: 581px;
+    height: 613px;
+}
