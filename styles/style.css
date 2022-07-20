@@ -87,7 +87,7 @@ h1 {
 /* ------------
   match-blogs 
 --------------*/
-.match-blogs {
+.match-blogs.up-coming {
     margin-top: 120px;
 
 }
@@ -118,14 +118,20 @@ aside a {
     border-radius: 10px;
 }
 
-.blogs {
+#site-indicator {
+    color: #FFFFFF;
+    background-color: #DD0000;
+}
+
+
+.blogs.upcomeing-matches {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     margin: 100px;
 }
 
-.blog {
+.blog.upcomeing-match {
     width: 312px;
     height: 362px;
 
