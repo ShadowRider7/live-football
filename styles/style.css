@@ -80,3 +80,81 @@ h1 {
     left: 801px;
     top: 83px;
 }
+
+/* ------------
+  match-blogs 
+--------------*/
+.match-blogs {
+    margin-top: 120px;
+
+}
+
+
+aside {
+    width: 312px;
+    height: 312px;
+    float: left;
+    background: #161616;
+    border-radius: 10px;
+}
+
+.link-btn-design {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.link-button {
+    position: absolute;
+    width: 252px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+
+}
+
+.blog {
+    width: 312px;
+    height: 362px;
+
+}
+
+.blog-details {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+
+.blog-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-text-adjust {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px 100px;
+    color: #B9B9B9;
+    font-weight: 500;
+}
+
+.footer-bottom-text-adjust {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
