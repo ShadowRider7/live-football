@@ -3,7 +3,9 @@
 
 
 
-/* common styles and utilities */
+/*---------------------------
+ common styles and utilities 
+ ----------------------------*/
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
@@ -140,6 +142,8 @@ aside a {
 
 }
 
+/* for blogs site */
+
 .blog-details {
     text-align: left;
     padding-left: 20px;
@@ -152,6 +156,21 @@ aside a {
     grid-template-columns: repeat(2, 1fr);
 }
 
+/* for upcomeing match site */
+.teams {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.description {
+    padding-left: 40px;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer section */
 footer {
     background-color: #161616;
     color: #FFFFFF;
@@ -199,4 +218,29 @@ footer {
 .footer-bottom span {
     color: aqua;
     font-weight: 200;
+}
+
+/* for mobile device */
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+
+
+    }
+
+    .top-banner {
+        margin: 0;
+
+    }
+
+
+
+    .match-blogs {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
 }
