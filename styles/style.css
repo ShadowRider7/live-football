@@ -224,23 +224,29 @@ footer {
 @media only screen and (max-width:688px) {
     .container {
         width: 100%;
+        align-items: center;
 
 
     }
 
     .top-banner {
-        margin: 0;
+        display: flex;
+        flex-direction: column;
+
 
     }
 
 
+
+    .half-width img {
+        position: unset;
+    }
 
     .match-blogs {
-        display: none;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 
-    footer {
-        display: none;
-    }
+
 
 }
