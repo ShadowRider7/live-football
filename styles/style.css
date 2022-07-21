@@ -87,7 +87,8 @@ h1 {
 /* ------------
   match-blogs 
 --------------*/
-.match-blogs.up-coming {
+.match-blogs,
+.up-coming {
     margin-top: 120px;
 
 }
@@ -124,14 +125,16 @@ aside a {
 }
 
 
-.blogs.upcomeing-matches {
+.blogs,
+.upcomeing-matches {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     margin: 100px;
 }
 
-.blog.upcomeing-match {
+.blog,
+.upcomeing-match {
     width: 312px;
     height: 362px;
 
